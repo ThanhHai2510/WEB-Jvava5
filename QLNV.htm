@@ -1,11 +1,12 @@
 <!doctype html>
-<html lang="en"> 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Quản Lí Phòng Ban</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quản Lí Phòng Ban</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -18,89 +19,93 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css1.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
+
 <body>
   <div class="container-fluid layout">
-      <div class="row">
+    <div class="row">
       <div class="aside col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 pt-3">
-      <div class="container-fluid-padding">
-      <a href="#">
-        <img src="img/logo.png" height="70px">
-      </a>
-      <hr>
-    </div>
-      <div class="mnd">
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="nav nav-tabs flex-column">
-          <li>
-            <a class="nav-link" href="#">Quản lí tài khoản</a>
-          </li>
-          <li>
-            <a class="nav-link active" href="login.html">Quản lí nhân viên</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Quản lí phòng ban</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Khen thưởng & kỉ luật</a>
-          </li>
-        </ul>
-      </div>
-      </div>
-        <div class="iconlogo">          
-          <a href="#"><i class="fa fa-home"></i></a>
-          <a href="#"><i class="fas fa-power-off"></i></a>
-          <a href="#"><i class="glyphicon glyphicon-envelope"></i></a>
+        <div class="container-fluid-padding">
+          <a href="#">
+            <img src="img/logo.png" height="70px">
+          </a>
+          <hr>
         </div>
+        <div class="mnd">
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="nav nav-tabs flex-column">
+              <li>
+                <a class="nav-link" href="#">Quản lí tài khoản</a>
+              </li>
+              <li>
+                <a class="nav-link active" href="QLNV.htm">Quản lí nhân viên</a>
+              </li>
+              <li>
+                <a class="nav-link" href="QLPB.htm">Quản lí phòng ban</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#">Khen thưởng & kỉ luật</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <footer>
+          <div class="iconlogo">
+            <a href="index.html"><i class="fa fa-home"></i></a>
+            <a href="login.html"><i class="fas fa-power-off"></i></a>
+            <a href="#"><i class="glyphicon glyphicon-envelope"></i></a>
+          </div>
+        </footer>
       </div>
-    <div class="article col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 pt-3">
-      <div class="container-fluid-padding">
-        
-      <nav class="navbar navbar-expand navbar-light bg-light">
-        <a href="#"><i class="fa fa-arrow-left"></i></a>
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">             
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
+      <div class="article col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 pt-3">
+        <div class="container-fluid-padding">
+
+          <nav class="navbar navbar-expand navbar-light bg-light">
+            <a href="#"><i class="fa fa-arrow-left"></i></a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="text" placeholder="Search">
               <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
-          </form>
-      </nav>
-    </div>
+            </form>
+          </nav>
+        </div>
 
-      <div class="container">
-        <h2>Striped Rows</h2>
-        <p>The .table-striped class adds zebra-stripes to a table:</p>            
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th>Firstname</th>
-              <th>Lastname</th>
-              <th>Email</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>John</td>
-              <td>Doe</td>
-              <td>john@example.com</td>
-            </tr>
-            <tr>
-              <td>Mary</td>
-              <td>Moe</td>
-              <td>mary@example.com</td>
-            </tr>
-            <tr>
-              <td>July</td>
-              <td>Dooley</td>
-              <td>july@example.com</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="container">
+          <h2>Striped Rows</h2>
+          <p>The .table-striped class adds zebra-stripes to a table:</p>
+          <!-- dùng w3.css-->
+          <!-- w3-table-all dùng tất cả các thuộc tính đc thiết lập: viền bảng, viền dòng...-->
+          <!-- w3-card-4 đổ bóng cho bảng-->
+          <!-- w3-hover-grey hover màu xám-->
+          <table class="w3-table-all w3-card-4">
+            <thead>
+              <tr class="w3-light-grey">
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="w3-hover-grey">
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+              </tr>
+              <tr class="w3-hover-grey">
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
-    </div>
+  </div>
 </body>
 
 </html>
