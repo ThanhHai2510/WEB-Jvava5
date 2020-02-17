@@ -1,0 +1,59 @@
+
+.fa-home, .fa-power-off, .glyphicon-envelope
+{
+    font-size: 2rem;
+}
+.fa-home
+{
+    margin: 15px;
+    color: white;
+}
+.fa-power-off
+{
+    margin:15px;
+    color: white;
+}
+.glyphicon-envelope
+{
+    margin: 15px;
+    color: white;
+}
+.aside
+{
+    background-color:rgba(0,0,0,0.75);
+    height: 970px;
+}
+.article
+{
+    background-color: #eeeeee;
+    height: 970px;
+}
+.mnd
+{
+    padding: 0;
+    margin: 0 auto;
+}
+.mnd a
+{
+    margin-left: 10px;
+    margin-right: 5px;
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.mnd li
+{
+    height: 55px;
+}
+.mnd a:hover
+{
+    color: black;
+}
+.iconlogo
+{
+    margin-top: 580px;
+    margin-left: 40px;
+}
+

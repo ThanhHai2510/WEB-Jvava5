@@ -66,25 +66,7 @@
 {
     color: red;
 }
-.fa-home, .fa-power-off, .glyphicon-envelope
-{
-    font-size: 2rem;
-}
-.fa-home
-{
-    margin: 15px;
-    color: white;
-}
-.fa-power-off
-{
-    margin:15px;
-    color: white;
-}
-.glyphicon-envelope
-{
-    margin: 15px;
-    color: white;
-}
+
 footer
 {
     background-color: rgba(0,0,0,0.75);
@@ -119,61 +101,6 @@ footer
     -webkit-box-shadow: 1px 2px 17px 4px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 2px 17px 4px rgba(0,0,0,0.75);
     box-shadow: 1px 2px 17px 4px rgba(0,0,0,0.75);
-}
-.fo{
-    margin-top: 25px;
-}
-aside
-{
-    float:left;
-	width: 15%;
-	background-color:rgba(0,0,0,0.75);
-	height: 1005px;
-}
-article
-{
-	float: right;
-	background-color: #eeeeee;
-	width: 85%;
-	height: 1005px;
-}
-.mnd
-{
-    margin-top: 30px;
-    padding: 0;
-}
-.mnd a
-{
-    margin-left: 10px;
-    margin-right: 10px;
-    display: block;
-    color: white;
-    padding: 8px 16px;
-    text-decoration: none;
-    font-size: 18px;
-}
-.mnd li
-{
-    height: 55px;
-}
-.mnd a:hover
-{
-    color: black;
-}
-.search
-{
-    float: right;
-}
-.iconlogo
-{
-    margin-top: 610px;
-    margin-left: 40px;
-}
-.ib
-{
-    margin-top: 5px;
-    width: 500px;
-    margin-left: 200px;
 }
 
 
